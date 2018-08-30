@@ -9,9 +9,34 @@ class Main {
 
 
 
-        drawIsosTriangle(4);
+        //drawIsosTriangle(2);
 
 
+        drawDiamond(3);
+
+
+
+
+    }
+
+    private static void drawDiamond(int n) {
+
+        drawIsosTriangle(n);
+
+        drawInvertedTriangle(n);
+    }
+
+
+
+
+    private static void drawInvertedTriangle(int n) {
+        for (int i = n - 2; i >= 0; i--) {
+
+            printSpaces(i);
+            printLine(i);
+            System.out.println();
+
+        }
     }
 
     private static void drawIsosTriangle(int n) {
