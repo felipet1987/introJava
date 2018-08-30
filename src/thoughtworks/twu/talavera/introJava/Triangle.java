@@ -1,4 +1,4 @@
-package twu.talavera;
+package thoughtworks.twu.talavera.introJava;
 
 class Triangle {
     static void printVerticalAsteriskLine(int n) {
